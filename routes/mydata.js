@@ -6,4 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('mydata', { title: 'Vineetha Aredla' });
 });
 
-module.exports = router;
+module.exports = mydatarouter;
