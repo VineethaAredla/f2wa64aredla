@@ -2,9 +2,9 @@ var express=require('express');
 var router = express.Router();
 
 router.get('/',function(req,res,next){
-   var number1=Math.floor(Math.random())
-   var number2=Math.floor(Math.random())
-   var number3=Math.floor(Math.random())
+   var number1=Math.random()
+   var number2=Math.random()
+   var number3=Math.random()
    var hypotfunction=Math.hypot(number1);
    var ceilfunction=Math.ceil(number2);
    var clz32function=Math.clz32(number3);
